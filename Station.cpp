@@ -4,11 +4,12 @@
 #include <string>
 #include "Train.h"
 
-Station::Station(int Station_Code,string Station_Name,string Arrival_time,string Leaving_Time) {
+Station::Station(int Station_Code,string Station_Name,string Arrival_time,string Leaving_Time,double DistanceFromStart) {
 	Station_Code = Station_Code;
 	Station_Name = Station_Name;
 	Arrival_time = Arrival_time;
 	Leaving_Time = Leaving_Time;
+    DistanceFromStart = DistanceFromStart;
 }
 
 void Station::Add_Train(int Train_number) {

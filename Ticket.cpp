@@ -14,6 +14,7 @@ Ticket::Ticket(Train* train, Coach* coach, string Source_Station, string Destina
 	Destination_Station = Destination_Station;
 	Date = Date;
 	Price = Price;
+	isBooked = false;
 }
 
 

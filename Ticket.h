@@ -12,6 +12,7 @@ private:
     Train* train;
     string Source_Station, Destination_Station, Date;
     double Price;
+    bool isBooked;
     Ticket(Train*, Coach*, string, string, string, double);
 
 };

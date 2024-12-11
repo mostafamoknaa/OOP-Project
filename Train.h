@@ -17,6 +17,7 @@ public:
 	void Add_Coach(Coach);
 	void Add_Station(Station);
 	void Show_Train_Details();
+	double Distance(string, string);
 
 };
 

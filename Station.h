@@ -9,8 +9,9 @@ class Station
 public:
 	int Station_Code;
 	string Station_Name,Arrival_time, Leaving_Time;
+	double DistanceFromStart;
 	vector<int>Trains;
-	Station(int, string,string,string);
+	Station(int, string,string,string,double);
 
 	void Add_Train(int);
 	void Show_Stations_Details();
