@@ -5,6 +5,10 @@
 
 using namespace std;
 
+Coach::Coach() {
+
+}
+
 Coach::Coach(int Seets, int Aviable_Seets, string Type, double C_Price) {
     this->Seets=Seets;
     this->Avaiable_Steets = Aviable_Seets;

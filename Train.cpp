@@ -4,6 +4,9 @@
 #include <string>
 
 using namespace std;
+Train::Train() {
+
+}
 
 Train::Train(int Train_Number,string Type) {
     this->T_Num = Train_Number;

@@ -8,6 +8,7 @@ using namespace std;
 class Coach
 {
 public:
+	Coach();
 	int Seets, Avaiable_Steets , C_Num;
 	string Type;
 	double C_Price;
