@@ -8,12 +8,14 @@ using namespace std;
 class Coach
 {
 public:
-	int Seets, Avaiable , C_Num;
+	int Seets, Avaiable_Steets , C_Num;
 	string Type;
 	double C_Price;
 	vector <bool> seats = { 0 };
 	Coach(int, int, string, double);
 	void Show_Coach_Details();
+
+	bool Book_Steets(double&, double&);
 
 };
 

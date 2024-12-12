@@ -23,7 +23,7 @@ void Train::Add_Station(Station stations) {
 }
 
 void Train::Show_Train_Details() {
-    cout << "Train Number: " << Train_Number<< ", Train Type: " << Type << endl;
+    cout << "Train Number: " << T_Num<< ", Train Type: " << Type << endl;
     cout << "Stations:\n";
     for (Station st : Stations) {
         cout << st.Station_Code
