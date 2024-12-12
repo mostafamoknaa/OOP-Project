@@ -34,4 +34,16 @@ void Train::Show_Train_Details() {
         c.Show_Coach_Details();
     }
 }
+void Train::SearchByTrainType(string Type) {
+    bool Check = 0;
+    for (Train tr : Trains) {
+        if (tr.Type == Type) {
+            tr.Show_Train_Details();
+            Check = 1;
+        }
+    }
+    if (!Check) {
+        cout << "No Train of Type '" << Type << "' Found." << endl;
+    }
+}
 
