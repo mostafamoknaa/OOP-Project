@@ -5,14 +5,9 @@
 
 using namespace std;
 
-Train::Train(int Train_Number, string Source,string Destination,string Type,string Start_Time,string Arrival_Time,double Total_Hours) {
-    Train_Number = Train_Number;
-    Source = Source;
-    Destination = Destination;
-    Type = Type;
-    Start_Time = Start_Time;
-    Arrival_Time = Arrival_Time;
-    Total_Hours = Total_Hours;
+Train::Train(int Train_Number,string Type) {
+    this->T_Num = Train_Number;
+    this->Type = Type;
 }
 
 void Train::Add_Coach(Coach coaches) {
@@ -36,3 +31,4 @@ void Train::Show_Train_Details() {
         c.Show_Coach_Details();
     }
 }
+

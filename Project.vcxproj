@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Coach.cpp" />
     <ClCompile Include="Project.cpp" />
+    <ClCompile Include="Spanish_Train.cpp" />
     <ClCompile Include="Station.cpp" />
     <ClCompile Include="Ticket.cpp" />
     <ClCompile Include="Train.cpp" />
@@ -136,6 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Coach.h" />
+    <ClInclude Include="Spanish_Train.h" />
     <ClInclude Include="Station.h" />
     <ClInclude Include="Ticket.h" />
     <ClInclude Include="Train.h" />

@@ -6,12 +6,12 @@
 using namespace std;
 
 class Train{
-public:
+protected:
 	int T_Num;
 	string Type;
 	vector<Coach> Coaches;
 	vector<Station> Stations;
-	Train(int,string, string, string,string,string,double);
+	Train(int,string);
 
 	void Add_Coach(Coach);
 	void Add_Station(Station);
