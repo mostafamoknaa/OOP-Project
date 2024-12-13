@@ -12,7 +12,6 @@ public:
 	double DistanceFromStart;
 	vector<int>Trains;
 	Station(int, string,string,string,double);
-
 	void Add_Train(int);
 	void Show_Stations_Details();
 
