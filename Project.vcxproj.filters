@@ -45,6 +45,9 @@
     <ClCompile Include="Sleep_Train.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sleep_Coach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Train.h">
@@ -72,6 +75,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sleep_Train.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sleep_Coach.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

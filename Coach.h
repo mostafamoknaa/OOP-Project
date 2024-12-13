@@ -15,7 +15,6 @@ public:
 	vector <bool> seats = { 0 };
 	Coach(int, int, string, double);
 	void Show_Coach_Details();
-
 	bool Book_Steets(double&, double&);
 
 };
