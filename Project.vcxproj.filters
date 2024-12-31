@@ -48,6 +48,15 @@
     <ClCompile Include="Sleep_Coach.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Russian_Train.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coach_Russian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Russian_Ticket.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Train.h">
@@ -78,6 +87,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Sleep_Coach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Russian_Train.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coach_Russian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Russian_Ticket.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
