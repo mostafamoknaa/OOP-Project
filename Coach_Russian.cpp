@@ -5,6 +5,12 @@
 #include <string>
 using namespace std;
 
-Coach_Russian ::
+bool Coach_Russian::isRestaurant() {
+	return true || false;
+};
+int Coach_Russian::getNumOfCoaches(int num) {
+	return num;
+};
 
-
+Coach_Russian::Coach_Russian() {
+};	//default constructor

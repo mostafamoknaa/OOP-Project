@@ -5,9 +5,6 @@ using namespace std;
 bool Russian_Train::isAirCondition() {
 	return true || false;
 };
-bool Russian_Train::isRestaurant() {
-	return true || false;
-};
 bool Russian_Train::isWIFI() {
 	return true || false;
 };
