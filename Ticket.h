@@ -4,10 +4,11 @@
 #include "Coach.h"
 #include "Station.h"
 #include "Train.h"
+static int T_ID;
 using namespace std;
 class Ticket{
 public:
-    static int T_ID;
+    
     Coach* coach;
     Train* train;
     string T_Source, T_Destination, T_Date , T_Time;

@@ -23,6 +23,9 @@ static void displaytrains() {
 	cout << "5. exit\n";
 	cout << "Choose an option: ";
 }
+double Price(Train t, Coach c , string source , string dest) {
+	return (t.CalculateDistance(source, dest)* c.C_Price * 0.001);
+}
 int main() {
 
 	try {
@@ -128,76 +131,75 @@ int main() {
 
 				if (trainName == 1) {
 					if (coachType == "sleep") {
-						ticket1 = new Ticket(&t1, &c1, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t1, &c1, source, dest, "12/12/2021", Price(t1,c1,source,dest));
 					}
 					else if (coachType == "special") {
-						ticket1 = new Ticket(&t1, &c2, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t1, &c2, source, dest, "12/12/2021", Price(t1, c2, source, dest));
 					}
 					else if (coachType == "first") {
-						ticket1 = new Ticket(&t1, &c3, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t1, &c3, source, dest, "12/12/2021", Price(t1, c3, source, dest));
 					}
 					else if (coachType == "second") {
-						ticket1 = new Ticket(&t1, &c4, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t1, &c4, source, dest, "12/12/2021", Price(t1, c4, source, dest));
 					}
 					else if (coachType == "third") {
-						ticket1 = new Ticket(&t1, &c5, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t1, &c5, source, dest, "12/12/2021", Price(t1, c5, source, dest));
 					}
 				}
 				else if (trainName == 2) {
 					if (coachType == "sleep") {
-						ticket1 = new Ticket(&t2, &c1, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t2, &c1, source, dest, "12/12/2021", Price(t2, c1, source, dest));
 					}
 					else if (coachType == "special") {
-						ticket1 = new Ticket(&t2, &c2, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t2, &c2, source, dest, "12/12/2021", Price(t2, c2, source, dest));
 					}
 					else if (coachType == "first") {
-						ticket1 = new Ticket(&t2, &c3, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t2, &c3, source, dest, "12/12/2021", Price(t2, c3, source, dest));
 					}
 					else if (coachType == "second") {
-						ticket1 = new Ticket(&t2, &c4, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t2, &c4, source, dest, "12/12/2021", Price(t2, c4, source, dest));
 					}
 					else if (coachType == "third") {
-						ticket1 = new Ticket(&t2, &c5, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t2, &c5, source, dest, "12/12/2021", Price(t2, c5, source, dest));
 					}
 				}
 				else if (trainName == 3) {
 					if (coachType == "sleep") {
-						ticket1 = new Ticket(&t3, &c1, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t3, &c1, source, dest, "12/12/2021", Price(t3, c1, source, dest));
 					}
 					else if (coachType == "special") {
-						ticket1 = new Ticket(&t3, &c2, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t3, &c2, source, dest, "12/12/2021", Price(t3, c2, source, dest));
 					}
 					else if (coachType == "first") {
-						ticket1 = new Ticket(&t3, &c3, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t3, &c3, source, dest, "12/12/2021", Price(t3, c3, source, dest));
 					}
 					else if (coachType == "second") {
-						ticket1 = new Ticket(&t3, &c4, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t3, &c4, source, dest, "12/12/2021", Price(t3, c4, source, dest));
 					}
 					else if (coachType == "third") {
-						ticket1 = new Ticket(&t3, &c5, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t3, &c5, source, dest, "12/12/2021", Price(t3, c5, source, dest));
 					}
 				}
 				else if (trainName == 4) {
 					if (coachType == "sleep") {
-						ticket1 = new Ticket(&t4, &c1, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t4, &c1, source, dest, "12/12/2021", Price(t4, c1, source, dest));
 					}
 					else if (coachType == "special") {
-						ticket1 = new Ticket(&t4, &c2, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t4, &c2, source, dest, "12/12/2021", Price(t4, c2, source, dest));
 					}
 					else if (coachType == "first") {
-						ticket1 = new Ticket(&t4, &c3, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t4, &c3, source, dest, "12/12/2021", Price(t4, c3, source, dest));
 					}
 					else if (coachType == "second") {
-						ticket1 = new Ticket(&t4, &c4, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t4, &c4, source, dest, "12/12/2021", Price(t4, c4, source, dest));
 					}
 					else if (coachType == "third") {
-						ticket1 = new Ticket(&t4, &c5, source, dest, "12/12/2021", 1 );
+						ticket1 = new Ticket(&t4, &c5, source, dest, "12/12/2021", Price(t4, c5, source, dest));
 					}
 				}
 
 				if (ticket1) {
 					ticket1->Book_Ticket();
-					ticket1->Show_Ticket_Details();
 				}
 
 				break;

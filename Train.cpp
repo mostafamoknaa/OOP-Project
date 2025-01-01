@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cmath>
 //#include "Driver.h"
 using namespace std;
 
@@ -49,7 +50,7 @@ double Train::CalculateDistance(string Source_Station, string Destination_Statio
         if (st.Station_Name == Source_Station) {
             for (Station st2 : Stations) {
                 if (st2.Station_Name == Destination_Station) {
-                    Distance = st2.DistanceFromStart - st.DistanceFromStart;
+                    Distance = abs(st2.DistanceFromStart - st.DistanceFromStart);
                     break;
                 }
             }

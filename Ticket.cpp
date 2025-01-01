@@ -18,34 +18,19 @@ Ticket::Ticket(Train* train, Coach* coach, string Source_Station, string Destina
 }
 
 bool Ticket::Book_Ticket() {
- if (train && coach && !isBooked) {
-            double distance = train->CalculateDistance(T_Source, T_Destination);
-            if (distance != -1) {
-                double totalPrice;
-                if (coach->Book_Steets(distance, totalPrice)) {
-                    T_Price = totalPrice;
-                    isBooked = true;
-                    cout << "Ticket booked successfully f.\n";
-                    cout << "Train: " << train->GetName()<< ", Coach: " << coach->Type << ", Source: " << T_Source
-					 << ", Destination: " << T_Destination << ", Date: " << T_Date
-                         << ", Price: $" << T_Price << endl;
-                    return true;
-                }
-                cout << "No available seats in this coach.\n";
-            } else {
-                cout << "Invalid route. Check source and destination stations.\n";
-            }
-        }
-        return false;
+
+	cout << "Ticket ID: " << T_ID << ", Source: " << T_Source << ", Destination: " << T_Destination << ", Date: " << T_Date << ", Price: $" << T_Price << endl;
+	if (isBooked) {
+		cout << "Ticket is not booked\n";
+	}
+	else {
+		cout << "Ticket is booked\n";
+	}
+	return false;
 }
 
 void Ticket::Show_Ticket_Details() {
 	cout << "Ticket ID: " << T_ID << ", Source: " << T_Source << ", Destination: " << T_Destination << ", Date: " << T_Date << ", Price: $" << T_Price << endl;
-	if (isBooked) {
-		cout << "Ticket is not booked\n";
-	} else {
-        cout << "Ticket is booked\n";
-	}
 }
 
 void Ticket::Cancel_Ticket() {
