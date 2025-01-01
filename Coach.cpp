@@ -27,7 +27,7 @@ bool Coach::Book_Steets(double& Distance, double& Price) {
 }
 
 void Coach::Show_Coach_Details() {
-    cout << Seets << " " << Type << " " << Avaiable_Steets << " " << C_Price << "\n";
+    cout << Seets << "          " << Type << "          " << Avaiable_Steets << "           " << C_Price << "\n";
 }
 
 

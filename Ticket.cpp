@@ -14,7 +14,7 @@ Ticket::Ticket(Train* train, Coach* coach, string Source_Station, string Destina
 	T_Destination = Destination_Station;
 	T_Date= Date;
 	T_Price = Price;
-	isBooked = false;
+	T_ID++;
 }
 
 bool Ticket::Book_Ticket() {
@@ -42,9 +42,9 @@ bool Ticket::Book_Ticket() {
 void Ticket::Show_Ticket_Details() {
 	cout << "Ticket ID: " << T_ID << ", Source: " << T_Source << ", Destination: " << T_Destination << ", Date: " << T_Date << ", Price: $" << T_Price << endl;
 	if (isBooked) {
-		cout << "Ticket is booked.\n";
+		cout << "Ticket is not booked\n";
 	} else {
-		cout << "Ticket is not booked.\n";
+        cout << "Ticket is booked\n";
 	}
 }
 

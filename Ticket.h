@@ -6,15 +6,14 @@
 #include "Train.h"
 using namespace std;
 class Ticket{
-private:
-
+public:
+    static int T_ID;
     Coach* coach;
     Train* train;
-    int T_ID;
     string T_Source, T_Destination, T_Date , T_Time;
     double T_Price;
-    bool isBooked;
-public:
+    bool isBooked = false;
+
     Ticket(Train*, Coach*, string, string, string,double);
     bool Book_Ticket();
     void Show_Ticket_Details();

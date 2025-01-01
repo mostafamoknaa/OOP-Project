@@ -21,13 +21,13 @@ void Train::Show_Train_Details() {
     cout << "Train Number: " << T_Num<< ", Train Type: " << Type << endl;
     cout << "Stations:\n";
     for (Station st : Stations) {
-        cout << st.Station_Code
-            << " , Station Name: " << st.Station_Name
-            << " | Arrival: " << st.Arrival_time
-            << ", Leaving: " << st.Leaving_Time;
+        cout<< " Station Name: " << st.Station_Name
+            << ",  Arrival: " << st.Arrival_time
+            << ", Leaving: " << st.Leaving_Time <<"\n";
     }
     cout << "\nCoaches:\n";
     for (Coach c : Coaches) {
+        cout << "Seat Num.  " << " Type  " << " Available Seats  " << " Price  \n";
         c.Show_Coach_Details();
     }
 }

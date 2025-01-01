@@ -14,6 +14,7 @@ public:
 	Station(int, string,string,string,double);
 	void Add_Train(int);
 	void Show_Stations_Details();
+	Station();
 
 };
 
