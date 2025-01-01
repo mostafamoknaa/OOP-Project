@@ -20,6 +20,7 @@ public:
 	void Show_Train_Details();
 	void SearchByTrainType(string);
 	double CalculateDistance(string, string);
+	string GetName();
 
 };
 

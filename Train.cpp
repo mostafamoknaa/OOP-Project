@@ -61,3 +61,6 @@ double Train::CalculateDistance(string Source_Station, string Destination_Statio
     return Distance;
 }
 
+string Train::GetName() {
+    return Type;
+}
