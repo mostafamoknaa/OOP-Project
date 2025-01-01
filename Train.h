@@ -3,6 +3,7 @@
 #include <vector>
 #include "Coach.h"
 #include "Station.h"
+#include "Driver.h"
 using namespace std;
 
 class Train{
@@ -12,6 +13,7 @@ protected:
 	vector<Coach> Coaches;
 	vector<Station> Stations;
 	vector<Train>Trains;
+	Driver driver;
 public:
 	Train();
 	Train(int,string);
@@ -20,6 +22,7 @@ public:
 	void Show_Train_Details();
 	void SearchByTrainType(string);
 	double CalculateDistance(string, string);
+	void show_driverinfo(Driver* driver);
 	string GetName();
 
 };

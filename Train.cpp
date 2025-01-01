@@ -2,12 +2,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
-
+#include "Driver.h"
 using namespace std;
-Train::Train() {
-
-}
-
 Train::Train(int Train_Number,string Type) {
     this->T_Num = Train_Number;
     this->Type = Type;
@@ -60,7 +56,11 @@ double Train::CalculateDistance(string Source_Station, string Destination_Statio
     }
     return Distance;
 }
-
+void Train::show_driverinfo(Driver*  driver)
+{
+    cout <<"the driver name is" << driver->name;
+    cout <<"the driver id is " << driver->id;
+}
 string Train::GetName() {
     return Type;
 }
