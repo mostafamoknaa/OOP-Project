@@ -6,8 +6,16 @@ class Russian_Train:public Train
 {
 
 public:
-	bool isAirCondition;       
+	bool isAirCondition();  //function to check if the train has air condition or not
+	bool isRestaurant();    //function to check if the train has restaurant or not
+	bool isWIFI();          //function to check if the train has WIFI or not
+	bool isFirstClass();    //function to check if the train has first class or not
+	bool isSecondClass();   //function to check if the train has second class or not
+	bool isThirdClass();    //function to check if the train has third class or not
+	//int getNumOfClasses();  //function to get the number of classes in the train
 Russian_Train();     //constractor
+
+
 
 };
 
