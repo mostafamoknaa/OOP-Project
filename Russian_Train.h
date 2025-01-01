@@ -13,6 +13,8 @@ public:
 	bool isSecondClass();   //function to check if the train has second class or not
 	bool isThirdClass();    //function to check if the train has third class or not
 	//int getNumOfClasses();  //function to get the number of classes in the train
+	
+	//void Show_Train_Details();  //function to show the details of the train
 Russian_Train();     //constractor
 
 
