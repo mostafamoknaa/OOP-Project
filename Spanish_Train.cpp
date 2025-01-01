@@ -34,7 +34,7 @@ void Spanish_Train::SearchByCoachType(string Type) {
 		}
 	}
 	if (!Check) {
-		cout << "No Coaches of type in that Train'" << Type << "' found." << endl;
+		cout << "No Coaches of type '"<< Type <<"' in that Train found!" << endl;
 	}
 }
 
