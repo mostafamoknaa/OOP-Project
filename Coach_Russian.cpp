@@ -11,6 +11,3 @@ bool Coach_Russian::isRestaurant() {
 int Coach_Russian::getNumOfCoaches(int num) {
 	return num;
 };
-
-Coach_Russian::Coach_Russian() {
-};	//default constructor

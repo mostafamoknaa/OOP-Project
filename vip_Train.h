@@ -3,4 +3,5 @@
 class vip_train : public Train {
     private:
     public:
+
 };
