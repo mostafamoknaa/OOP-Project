@@ -139,6 +139,7 @@
     <ClCompile Include="Cach_Station.cpp" />
     <ClCompile Include="Coach.cpp" />
     <ClCompile Include="Coach_Russian.cpp" />
+    <ClCompile Include="Driver.cpp" />
     <ClCompile Include="Project.cpp" />
     <ClCompile Include="Russian_Ticket.cpp" />
     <ClCompile Include="Russian_Train.cpp" />
@@ -146,6 +147,7 @@
     <ClCompile Include="Sleep_Train.cpp" />
     <ClCompile Include="Spanish_Train.cpp" />
     <ClCompile Include="special_Coach.cpp" />
+    <ClCompile Include="special_ticket.cpp" />
     <ClCompile Include="Station.cpp" />
     <ClCompile Include="Ticket.cpp" />
     <ClCompile Include="Train.cpp" />
@@ -155,12 +157,14 @@
     <ClInclude Include="Cach_Station.h" />
     <ClInclude Include="Coach.h" />
     <ClInclude Include="Coach_Russian.h" />
+    <ClInclude Include="Driver.h" />
     <ClInclude Include="Russian_Ticket.h" />
     <ClInclude Include="Russian_Train.h" />
     <ClInclude Include="Sleep_Coach.h" />
     <ClInclude Include="Sleep_Train.h" />
     <ClInclude Include="Spanish_Train.h" />
     <ClInclude Include="special_Coach.h" />
+    <ClInclude Include="special_ticket.h" />
     <ClInclude Include="Station.h" />
     <ClInclude Include="Ticket.h" />
     <ClInclude Include="Train.h" />

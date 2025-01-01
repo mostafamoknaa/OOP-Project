@@ -4,7 +4,7 @@ class Sleep_Train : public Train {
 private:
 	int Bnums;
 public:
-	int SleepTrain(int);
+	void SleepTrain(int);
 	void Display_Bnums();
 };
 
