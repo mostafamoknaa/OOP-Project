@@ -46,4 +46,18 @@ void Train::SearchByTrainType(string Type) {
         cout << "No Train of Type '" << Type << "' Found." << endl;
     }
 }
+double Train::CalculateDistance(string Source_Station, string Destination_Station) {
+    double Distance = 0;
+    for (Station st : Stations) {
+        if (st.Station_Name == Source_Station) {
+            for (Station st2 : Stations) {
+                if (st2.Station_Name == Destination_Station) {
+                    Distance = st2.DistanceFromStart - st.DistanceFromStart;
+                    break;
+                }
+            }
+        }
+    }
+    return Distance;
+}
 

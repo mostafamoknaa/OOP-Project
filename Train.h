@@ -18,7 +18,8 @@ public:
 	void Add_Coach(Coach);
 	void Add_Station(Station);
 	void Show_Train_Details();
-	void SearchByTrainType(string type);
+	void SearchByTrainType(string);
+	double CalculateDistance(string, string);
 
 };
 
