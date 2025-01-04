@@ -22,7 +22,7 @@ public:
 	void SearchByTrainType(string);
 	double CalculateDistance(string, string);
 	//void show_driverinfo(Driver* driver);
-	string GetName();
+	//string GetName();
 
 };
 

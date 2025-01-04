@@ -12,10 +12,10 @@ public:
 	int Seets, Avaiable_Steets , C_Num;
 	string Type;
 	double C_Price;
-	vector <bool> seats = { 0 };
+	//vector <bool> seats = { 0 }; //0 0 1 0 1 0 
 	Coach(int, int, string, double);
 	void Show_Coach_Details();
-	bool Book_Steets(double&, double&);
+	bool Book_Steets(double);
 
 };
 

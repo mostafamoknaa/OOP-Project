@@ -155,7 +155,6 @@
     <ClInclude Include="Cach_Station.h" />
     <ClInclude Include="Coach.h" />
     <ClInclude Include="Coach_Russian.h" />
-    <ClInclude Include="Russian_Ticket.h" />
     <ClInclude Include="Russian_Train.h" />
     <ClInclude Include="Sleep_Coach.h" />
     <ClInclude Include="Sleep_Train.h" />

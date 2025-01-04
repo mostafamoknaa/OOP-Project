@@ -63,6 +63,6 @@ double Train::CalculateDistance(string Source_Station, string Destination_Statio
 //    cout <<"the driver name is" << driver->name;
 //    cout <<"the driver id is " << driver->id;
 //}
-string Train::GetName() {
-    return Type;
-}
+//string Train::GetName() {
+//    return Type;
+//}

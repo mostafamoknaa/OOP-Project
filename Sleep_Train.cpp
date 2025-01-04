@@ -1,6 +1,10 @@
 #include "Sleep_Train.h"
 #include "Train.h"
 using namespace std;
+
+Sleep_Train::Sleep_Train() {
+
+}
 void Sleep_Train::SleepTrain(int Num) {
 	Bnums = Num;
 }

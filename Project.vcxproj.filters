@@ -54,12 +54,6 @@
     <ClCompile Include="Coach_Russian.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Russian_Ticket.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Driver.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="special_ticket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -99,12 +93,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Coach_Russian.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Russian_Ticket.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Driver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="special_ticket.h">

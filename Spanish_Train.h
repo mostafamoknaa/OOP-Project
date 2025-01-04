@@ -7,6 +7,7 @@ class Spanish_Train : public Train{
 private:
 	int Max_Ticket;
 public:
+	Spanish_Train();
 	Spanish_Train(int, string, int);
 	void Show_Train_Details();
 	double CalculateTotalRevenue();

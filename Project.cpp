@@ -4,6 +4,10 @@
 #include "Station.h"
 #include "Train.h"
 #include "Ticket.h"
+#include "Russian_Train.h"
+#include "vip_Train.h"
+#include "Spanish_Train.h"
+#include "Sleep_Train.h"
 
 using namespace std;
 
@@ -29,18 +33,18 @@ double Price(Train t, Coach c , string source , string dest) {
 int main() {
 
 	try {
-		Train t1(1, "sleep");   //Sleep Train
-		Train t2(2, "russian"); //Russian Train
-		Train t3(3, "VIP");		//VIP Train
-		Train t4(4, "spanish"); //Spanish Train
+		Sleep_Train t1;   //Sleep Train
+		Russian_Train t2; //Russian Train
+		vip_train t3;		//VIP Train
+		Spanish_Train t4; //Spanish Train
 
-		Coach c1(200, 50, "sleep", 1000);
+		Coach c1(200, 50, "sleep", 1000); //Capacity, Available, Type, Price
 		Coach c2(200, 50, "special", 0);
 		Coach c3(200, 50, "first", 500);
 		Coach c4(200, 50, "second", 300);
 		Coach c5(200, 50, "third", 150);
 
-		Station s1(1, "Aswan", "12:00", "12:10", 0);
+		Station s1(1, "Aswan", "12:00", "12:10", 0); //ID, Name, Arrival, Leaving, Distance
 		Station s2(1, "Luxur", "3:00", "3:10", 300);
 		Station s3(1, "Qena", "4:00", "4:10", 400);
 		Station s4(2, "Sohag", "6:00", "6:10", 600);
@@ -112,7 +116,6 @@ int main() {
 				} while (choice != 5);
 				break;
 			case 2:
-				//ticket1.Book_Ticket();
 				int trainName;
 				string coachType, source, dest;
 				displaytrains();

@@ -6,6 +6,9 @@
 
 using namespace std;
 
+Spanish_Train::Spanish_Train() {
+
+}
 Spanish_Train::Spanish_Train(int Num, string Type, int Max) {
 	this->T_Num = Num;
 	this->Type = Type;

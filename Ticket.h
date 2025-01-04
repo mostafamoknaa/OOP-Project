@@ -18,7 +18,7 @@ public:
     Ticket(Train*, Coach*, string, string, string,double);
     bool Book_Ticket();
     void Show_Ticket_Details();
-    void Cancel_Ticket();
+    //void Cancel_Ticket();
 
 };
 
