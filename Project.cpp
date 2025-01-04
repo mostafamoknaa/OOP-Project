@@ -33,10 +33,15 @@ double Price(Train t, Coach c , string source , string dest) {
 int main() {
 
 	try {
-		Sleep_Train t1;   //Sleep Train
-		Russian_Train t2; //Russian Train
-		vip_train t3;		//VIP Train
-		Spanish_Train t4; //Spanish Train
+		//Sleep_Train t1;   //Sleep Train
+		//Russian_Train t2; //Russian Train
+		//vip_train t3;		//VIP Train
+		//Spanish_Train t4; //Spanish Train
+
+		Train t1(1 , "sleep");   //Sleep Train
+		Train t2(2 , "russian"); //Russian Train
+		Train t3(3 , "vip");		//VIP Train
+		Train t4(4 , "spanish"); //Spanish Train
 
 		Coach c1(200, 50, "sleep", 1000); //Capacity, Available, Type, Price
 		Coach c2(200, 50, "special", 0);
