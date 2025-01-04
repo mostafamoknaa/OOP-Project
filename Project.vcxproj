@@ -150,6 +150,7 @@
     <ClCompile Include="Ticket.cpp" />
     <ClCompile Include="Train.cpp" />
     <ClCompile Include="Trip.cpp" />
+    <ClCompile Include="Vip_Train.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cach_Station.h" />
@@ -165,6 +166,7 @@
     <ClInclude Include="Ticket.h" />
     <ClInclude Include="Train.h" />
     <ClInclude Include="Trip.h" />
+    <ClInclude Include="Vip_Train.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

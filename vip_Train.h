@@ -1,10 +1,12 @@
 #pragma once
 #include "Train.h"
-class vip_train : public Train {
+#include <string>
+using namespace std;
 
+class Vip_Train: public Train{
 public:
-	vip_train();
-	vip_train(int, string);
+	Vip_Train();
+	Vip_Train(int, string);
 	void Show_Train_Details();
-
 };
+

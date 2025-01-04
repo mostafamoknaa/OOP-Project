@@ -9,15 +9,13 @@ using namespace std;
 Spanish_Train::Spanish_Train() {
 
 }
-Spanish_Train::Spanish_Train(int Num, string Type, int Max) {
+Spanish_Train::Spanish_Train(int Num, string Type) {
 	this->T_Num = Num;
 	this->Type = Type;
-	this->Max_Ticket = Max;
 }
 
 void Spanish_Train::Show_Train_Details() {
 	Train::Show_Train_Details();
-	cout << "Maximum Ticket: " << Max_Ticket << endl;
 }
 
 double Spanish_Train::CalculateTotalRevenue() {

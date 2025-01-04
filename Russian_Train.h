@@ -6,6 +6,7 @@ class Russian_Train :public Train {
 
 public:
 	Russian_Train();
+	Russian_Train(int , string);
 	bool isAirCondition();  //function to check if the train has air condition or not
 	//bool isRestaurant();    //function to check if the train has restaurant or not
 	bool isWIFI();          //function to check if the train has WIFI or not

@@ -4,6 +4,10 @@ using namespace std;
 
 Russian_Train::Russian_Train() {
 };
+Russian_Train::Russian_Train(int Num, string Type) {
+	this->T_Num = Num;
+	this->Type = Type;
+}
 
 bool Russian_Train::isAirCondition() {
 	return true;
